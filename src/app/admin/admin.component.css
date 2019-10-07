@@ -1,0 +1,28 @@
+table {
+    border-top: 10px solid #d82a4e;
+    border-left: 10px solid #d82a4e;
+    background-color: #f1f1f1;
+    width:100%;
+  }
+  td{
+    padding: 20px 16px;
+    border-bottom: 1px solid #ddd;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight:bold;
+   
+  }
+  input[type=button]{
+    
+      border-radius:8px;
+      border: none;
+      padding: 15px 10px;
+      font-weight: 600;
+      font-size: 16px;
+      position: relative;
+      color: #fff;
+      cursor: pointer;
+      background: #d82a4e;
+  margin-left:10%;
+  
+  }
+  

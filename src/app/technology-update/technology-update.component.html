@@ -1,0 +1,41 @@
+
+
+<div class="outer">
+    <div class="container">
+        <div class="row">
+           
+                 
+
+                 <form [formGroup]="registerForm" (ngSubmit)="onSubmit()" #log="ngForm"> --
+                    <div class="form-group">
+                        <label align="center">Update Technologies</label>
+                        <fieldset>
+                            <input type="text" name="id" formControlName="name" class="form-control" [(ngModel)]="technology.id" placeholder="Enter id....">
+                            
+                            <input type="text" name="name" formControlName="name" class="form-control" [(ngModel)]="technology.name" placeholder="Enter name....">
+
+                        <textarea rows="4" cols="50" name="description" formControlName="description" class="form-control" [(ngModel)]="technology.description" placeholder="Add description...."></textarea>
+                        </fieldset>
+                    </div>
+                    
+          
+                    
+                  
+                          
+                
+
+
+
+
+                    <div class="form-group">
+                        <button class="btn btn-primary">Save Changes</button>
+                    </div>
+                 </form> 
+           
+        </div>
+    </div>
+</div>
+
+
+
+

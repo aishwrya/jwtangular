@@ -1,0 +1,89 @@
+ <div class="outer"> --
+
+<nav >
+    <div class="container-fluid">
+     
+      
+    
+            
+        <ul>
+            <li class="dropbtn"><a routerLink="/login">Login</a></li>
+
+            <li onclick="myFunction()" class="dropbtn">SignUp</li> 
+              <div id="myDropdown" class="dropdown-content">
+                <a routerLink="/usersignup">User</a>
+                <a routerLink="/signup">Mentor</a>
+               
+              </div>
+      
+            </ul>
+    </div>
+    
+  </nav>
+ <p>Learn for a Modern Workforce</p>
+<p>Become A Better You</p>
+
+<div>
+
+  
+  
+        
+           
+                <!-- <div class="row"> --
+                    
+                    
+                 <form [formGroup]="registerForm" (ngSubmit)="onSubmit()" #log="ngForm"> --
+                    <div class="form-group">
+                       
+                                <div class="col-lg-4">
+                                  <input id="Name" formControlName="name"  [(ngModel)]="name" placeholder="Time..." class="form-control" type="text">
+                                </div>
+                                <div class=" col-lg-4">
+                                  <input type="text" class="form-control" id="cmpny"  [(ngModel)]="tech" placeholder="Technology..." formControlName="tech">
+                                </div>
+                            
+                         
+                              <div class=" col-md">
+                                  <div class="form-group">
+                                <button type="button" class="site-btn" >Search</button>
+                            </div>
+                        
+                    </div>
+              
+        
+        </div>
+    </form>
+  <!-- -- </div>    -- -->
+  <form [formGroup]="registerForm" (ngSubmit)="onSubmit()" #log="ngForm"> --
+      <div class="form-group">
+         
+          <fieldset>
+              <div class="col-lg-4">
+              
+              <input type="text" name="name" formControlName="name" class="form-control" placeholder="Enter name....">
+</div>
+<div class=" col-lg-4">
+          <input type="text" name="start" formControlName="start" class="form-control" placeholder="Add description....">
+</div>  
+<div class=" col-lg-4">
+  <input type="text" name="end" formControlName="end" class="form-control" placeholder="Add description....">
+</div>
+        </fieldset>
+
+      </div>
+      
+
+      
+    
+            
+  
+
+
+
+
+      <div class="form-group">
+          <button class="site-btn">Search</button>
+      </div>
+ </form>  
+  
+</div>
